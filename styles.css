@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    padding-top: 10rem;
+    background-image: url("images/background\ image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+    ;
+
+}
+
+.Container {
+    background-color: #b30000;
+background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+padding-bottom: 1rem;
+padding-top: 1rem;
+width: 20rem;
+margin: 0 auto;
+border-radius: 25px;
+}
+
+button {
+    margin-top: 1rem;
+    
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-size: cover;
+        background-attachment: fixed
+    }
+}
